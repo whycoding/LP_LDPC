@@ -11,7 +11,7 @@ void Add_var()
 	char num_p [5];
 	char num_q [5];
 
-	f = fopen("//home//why//document//lp//codeword//PEG36x27-Alist.txt","r");
+	f = fopen(codeword_txt,"r");
 	if( f == NULL)
 	{
 		printf("read the ldpc matrix failed\n");

@@ -4,6 +4,7 @@
 
 float SNR ;
 int  NZERO = 100;
+char codeword_txt[100] = "PEG36x27-Alist.txt";
 
 int Glpk();
 int Lp_main();
@@ -14,7 +15,7 @@ int main()
 	int num;
 	FILE* glpk_out;
 
-	glpk_out = fopen("//home//why//document//lp//result//glpk_out_test.txt", "a+");
+	glpk_out = fopen("glpk_out_test.txt", "a+");
 
     srand(time(0));
 

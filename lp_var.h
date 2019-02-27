@@ -4,3 +4,4 @@ extern float CODERATE;
 extern float SNR ;
 extern float stdev;
 extern int  NZERO ;
+extern char codeword_txt[100];

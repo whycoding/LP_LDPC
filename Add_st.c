@@ -62,7 +62,7 @@ int* Getnj(int j)
 	int* nj;
 	char* tem;
 
-	f = fopen("//home//why/document//lp//codeword//PEG36x27-Alist.txt","r");
+	f = fopen(codeword_txt,"r");
 	nj = (int*)malloc(p*sizeof(int));
 	tem = (char*)malloc(3*n*sizeof(char));
 
